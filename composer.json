@@ -1,0 +1,20 @@
+{
+    "name": "pod/php-sdk",
+    "description": "php sdk for pod land",
+    "type": "composer-plugin",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Saeed Torabi",
+            "email": "saeedtrb@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PasargadIranianBank\\Pod\\": "src/"
+        }
+    }
+}
